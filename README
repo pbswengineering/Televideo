@@ -5,9 +5,8 @@ Il programma consente, tra le altre cose, di spostarsi attraverso le
 varie pagine mediante click sui numeri; altre peculiarità sono visibili
 nell'apposita finestra di aiuto, visualizzabile clickando sul salvagente.
 
-Per funzionare questo programma richiede i binding di Glade per Python
-(es. su Ubuntu 9.10, il pacchetto python-glade2) nonché la suite
-ImageMagick (es. su Ubuntu 9.10, il pacchetto imagemagick).
+Per funzionare questo programma richiede la suite ImageMagick (es. su Ubuntu,
+il pacchetto imagemagick).
 
 Per eseguire il programma basta fare doppio click sul file "televideo.py"
 o digitare da shell "python televideo.py", dopo essersi posizionati
