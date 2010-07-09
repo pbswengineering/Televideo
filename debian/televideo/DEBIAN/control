@@ -1,0 +1,13 @@
+Package: televideo
+Version: 1.0
+Architecture: all
+Maintainer: Paolo Bernardi <villa.lobos@tiscali.it>
+Installed-Size: 104
+Depends: python, python-gtk2, imagemagick
+Section: net
+Priority: extra
+Homepage: http://paolobernardi.wordpress.com/
+Description: browse the RAI Televideo
+ With this software you can browse the RAI Televideo
+ easily from your Linux Desktop. Cool eh? The Televideo
+ content is written in Italian.
