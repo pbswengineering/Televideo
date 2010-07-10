@@ -1,7 +1,7 @@
 .PHONY: all clean install uninstall
 
 all:
-	echo "It's all there, just an ls away!"
+	@echo "It's all there, just an ls away!"
 
 clean:
 	rm -f *~
@@ -18,7 +18,7 @@ install:
 	update-desktop-database || true
 
 uninstall:
-	rm -f $(DESTDIR)/usr/bin/televideo/
+	rm -f $(DESTDIR)/usr/bin/televideo
 	rm -fr $(DESTDIR)/usr/share/televideo/
 	rm -fr $(DESTDIR)/usr/share/doc/televideo/
 	rm -f $(DESTDIR)/usr/share/applications/televideo.desktop
