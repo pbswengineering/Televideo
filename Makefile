@@ -12,7 +12,14 @@ install:
 	mkdir -p $(DESTDIR)/usr/share/doc/televideo/
 	cp AUTHORS COPYING README $(DESTDIR)/usr/share/doc/televideo/
 	test -d $(DESTDIR)/usr/bin/ || mkdir -p $(DESTDIR)/usr/bin/
-	ln -s $(DESTDIR)/usr/share/televideo/televideo.py $(DESTDIR)/usr/bin/televideo
+
+	# A symbolic link isn't the same... The absolute path is stored into
+	# it, so my computer's path would remain into it; a script seems a
+	# better choice.
+	#ln -s $(DESTDIR)/usr/share/televideo/televideo.py $(DESTDIR)/usr/bin/televideo
+	echo /usr/share/televideo/televideo.py > $(DESTDIR)/usr/bin/televideo
+	chmod +x $(DESTDIR)/usr/bin/televideo
+
 	test -d $(DESTDIR)/usr/share/applications/ || mkdir -p $(DESTDIR)/usr/share/applications/
 	cp televideo.desktop $(DESTDIR)/usr/share/applications/
 	update-desktop-database || true
