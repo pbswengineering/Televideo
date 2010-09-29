@@ -21,9 +21,9 @@ import gtk, os, re, socket, sys, threading, urllib
 # Where are the images, gtkbuilder xml & co.?
 # They can be in /usr/share/televideo or in the current directory
 if os.path.exists('/usr/share/televideo/televideo.xml'):
-	RESOURCE_PATH = '/usr/share/televideo/'
+    RESOURCE_PATH = '/usr/share/televideo/'
 else:
-	RESOURCE_PATH = os.path.abspath(sys.path[0])
+    RESOURCE_PATH = os.path.abspath(sys.path[0])
 
 # Some utilities
 
