@@ -327,9 +327,6 @@ I numeri di pagina sono cliccabili a mo' di collegamenti ipertestuali.
         self.btSubPageNext = builder.get_object('btSubPageNext')
         self.btPageNext = builder.get_object('btPageNext')
 
-        # Minor adjustments
-        self.window.modify_bg(gtk.STATE_NORMAL, gtk.gdk.color_parse("black"))
-
         # GTK and Glade sucks
         self.eventBox = gtk.EventBox()
         self.eventBox.connect('button-press-event',self.on_eventBox_button_press_event)
