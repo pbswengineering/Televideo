@@ -263,16 +263,18 @@ class Televideo:
         m.set_title('Scorciatoie da tastiera')
         m.set_markup("""<u><b>CONTROLLO DA TASTIERA</b></u>
 
-<b>←</b>\t pagina precedente
-<b>→</b>\t pagina successiva
-<b>↑</b>\t sotto-pagina precedente
-<b>↓</b>\t sotto-pagina successiva
+<b>←</b>\t\t pagina precedente
+<b>→</b>\t\t pagina successiva
+<b>↑</b>\t\t sotto-pagina precedente
+<b>↓</b>\t\t sotto-pagina successiva
 
-<b>－</b>\t rimpicciolisci
-<b>+</b>\t ingrandisci
+<b>Ctrl+L</b>\t modifica numero di pagina
 
-<b>F5</b>\t ricarica la pagina corrente
-<b>Q</b>\t esci dal programma
+<b>－</b>\t\t rimpicciolisci
+<b>+</b>\t\t ingrandisci
+
+<b>F5</b>\t\t ricarica la pagina corrente
+<b>Q</b>\t\t esci dal programma
 
 
 <u><b>NOTA:</b></u>
