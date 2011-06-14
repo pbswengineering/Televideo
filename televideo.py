@@ -306,6 +306,8 @@ I numeri di pagina sono cliccabili a mo' di collegamenti ipertestuali.
             self.on_btSubPageNext_clicked(widget)
         elif data.keyval in (gtk.keysyms.q, gtk.keysyms.Q):
             self.on_window_destroy(widget)
+        elif data.state & gtk.gdk.CONTROL_MASK and data.keyval in (gtk.keysyms.l, gtk.keysyms.L):
+            self.pageNumber.grab_focus()
 
     def __init__(self):
         """Loads the graphical interface and sets it up."""
