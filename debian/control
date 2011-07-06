@@ -1,7 +1,7 @@
 Source: televideo
 Section: net
 Priority: extra
-Maintainer: Paolo Bernardi <villa.lobos@tiscali.it>
+Maintainer: Paolo Bernardi <bernarpa@gmail.com>
 Build-Depends: debhelper (>= 7)
 Standards-Version: 3.8.3
 Homepage: http://paolobernardi.wordpress.com/
