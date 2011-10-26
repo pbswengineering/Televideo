@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- mode: python; coding: utf-8 -*-
 
-# Copyright 2009 Paolo Bernardi <villa.lobos@tiscali.it>
+# Copyright 2009-2011 Paolo Bernardi <bernarpa@gmail.com>
 #
 # This program is under the MIT/X11 license terms. The license
 # text together with a brief Italian introduction is written

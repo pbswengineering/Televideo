@@ -1,3 +1,9 @@
+televideo (1.1) unstable; urgency=low
+
+  * Added some useful keybingings.
+
+ -- Paolo Bernardi <villa.lobos@tiscali.it>  Fri, 06 Jul 2011 14:21:12 +0200
+ 
 televideo (1.0) unstable; urgency=low
 
   * Initial Release.
