@@ -55,5 +55,5 @@ available via the Info system.
 .SH AUTHOR
 televideo was written by <upstream author>.
 .PP
-This manual page was written by Paolo Bernardi <villa.lobos@tiscali.it>,
+This manual page was written by Paolo Bernardi <bernarpa@gmail.com>,
 for the Debian project (and may be used by others).

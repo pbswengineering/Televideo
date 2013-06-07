@@ -1,6 +1,6 @@
 This work was packaged for Debian by:
 
-    Paolo Bernardi <villa.lobos@tiscali.it> on Fri, 09 Jul 2010 19:47:48 +0200
+    Paolo Bernardi <bernarpa@gmail.com> on Fri, 09 Jul 2010 19:47:48 +0200
 
 It was downloaded from <url://example.com>
 
@@ -36,7 +36,7 @@ found in `/usr/share/common-licenses/BSD'.
 
 The Debian packaging is:
 
-    Copyright (C) 2010 Paolo Bernardi <villa.lobos@tiscali.it>
+    Copyright (C) 2010 Paolo Bernardi <bernarpa@gmail.com>
 
 # Please chose a license for your packaging work. If the program you package
 # uses a mainstream license, using the same license is the safest choice.
