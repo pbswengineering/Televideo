@@ -1,0 +1,9 @@
+To create an RPM, after having setup a makerpm user[0], use:
+
+    rpmbuild --ba --target=noarch televideo.spec
+
+I wonder why:
+  1) this thing creates a .pyo and .pyc files by itself;
+  2) specifying BuildArch: noarch in the spec file isn't enough.
+
+[0] http://fedoraproject.org/wiki/How_to_create_an_RPM_package/it

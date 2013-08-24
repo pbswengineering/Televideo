@@ -1,3 +1,5 @@
+%define _unpackaged_files_terminate_build 0
+
 Summary: Italian RAI Televideo viewer
 Name: televideo
 Version: 1.1
